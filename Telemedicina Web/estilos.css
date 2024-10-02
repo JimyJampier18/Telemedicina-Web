@@ -1,0 +1,150 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Color de fondo más claro */
+}
+
+/* Encabezado */
+header {
+    background: #0056b3; /* Azul más oscuro */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en móviles */
+    justify-content: center;
+    background: #007bff; /* Azul claro */
+}
+
+nav a {
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #0056b3; /* Azul más oscuro al pasar el cursor */
+    transform: scale(1.05); /* Efecto de escalado */
+}
+
+/* Secciones */
+.section {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 20px auto; /* Espaciado entre secciones */
+    background: white;
+    border-radius: 12px; /* Bordes más redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más fuerte */
+}
+
+.section h2 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px; /* Espaciado inferior */
+    font-size: 2.5em; /* Tamaño de fuente más grande */
+}
+
+/* Características */
+.features {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las características se ajusten en móviles */
+    justify-content: space-around;
+    margin: 40px 0; /* Espaciado entre características */
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    flex: 1 1 30%; /* Flexbox para que se ajuste */
+    max-width: 300px; /* Ancho máximo */
+    margin: 10px; /* Espaciado entre características */
+}
+
+.feature i {
+    font-size: 50px; /* Iconos más grandes */
+    color: #007bff;
+    margin-bottom: 15px; /* Espaciado inferior de los iconos */
+}
+
+/* Testimonios */
+.testimonial {
+    background: #e9ecef; /* Color de fondo suave */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial h3 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+/* Formulario de Contacto */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 15px;
+    margin: 10px 0; /* Espaciado vertical */
+    border: 1px solid #ced4da; /* Borde más suave */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 80%; /* Ancho de los campos */
+    max-width: 500px; /* Ancho máximo */
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    background: #007bff; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0056b3; /* Azul más oscuro al pasar el cursor */
+}
+
+/* Estilo responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Cambio de dirección en móviles */
+    }
+
+    .section {
+        padding: 20px; /* Menos padding en móviles */
+    }
+
+    .hero h1 {
+        font-size: 2.5em; /* Tamaño de fuente más pequeño */
+    }
+
+    .contact-form input, .contact-form textarea {
+        width: 95%; /* Aumentar el ancho en móviles */
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0056b3; /* Azul más oscuro */
+    color: white;
+}
+.navbar-toggler {
+    border: none; /* Eliminar el borde del botón */
+}
+
+
